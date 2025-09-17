@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <footer id="contact" className="w-full max-w-7xl mx-auto mt-10 mb-24 pt-12 px-8 pb-10">
       <div className="relative bg-transparent">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 border-b border-neutral-200 pb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 border-b border-neutral-200 pb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-600" style={{strokeWidth:1.5}} viewBox="0 0 24 24" fill="none" stroke="currentColor">

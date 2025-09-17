@@ -106,7 +106,7 @@ export default function TechStack() {
           <div className="absolute -left-24 top-1/3 w-[520px] h-[520px] rounded-full bg-gradient-to-br from-neutral-800 to-neutral-900 blur-3xl opacity-40"></div>
           <div className="absolute right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-neutral-800 to-transparent"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 sm:gap-4 relative">
+        <div className="flex flex-col lg:grid lg:grid-cols-12 gap-3 sm:gap-4 relative">
           {/* Left Sidebar */}
           <aside className="lg:col-span-3 bg-neutral-900/60 ring-1 ring-neutral-800 rounded-2xl p-4 flex flex-col">
             <div className="flex items-center justify-between">
@@ -192,7 +192,7 @@ export default function TechStack() {
               </div>
               
               {/* Chat Messages */}
-              <div className="mt-4 max-h-64 overflow-y-auto space-y-3">
+              <div className="mt-4 max-h-48 sm:max-h-64 overflow-y-auto space-y-3">
                 {messages.length === 0 ? (
                   <div className="rounded-2xl bg-neutral-800/80 ring-1 ring-neutral-700 text-sm text-neutral-200 px-4 py-3">
                     👋 Hi! I'm Steven's AI assistant. Ask me anything about his work, projects, or how he can help with your tech needs!
@@ -200,7 +200,7 @@ export default function TechStack() {
                 ) : (
                   messages.map((message) => (
                     <div key={message.id} className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                      <div className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm ${
+                      <div className={`max-w-[85%] sm:max-w-[80%] rounded-2xl px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm ${
                         message.role === 'user' 
                           ? 'bg-blue-600 text-white' 
                           : 'bg-neutral-800/80 ring-1 ring-neutral-700 text-neutral-200'

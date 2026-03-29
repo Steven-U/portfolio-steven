@@ -195,7 +195,7 @@ export default function TechStack() {
               <div className="mt-4 max-h-48 sm:max-h-64 overflow-y-auto space-y-3">
                 {messages.length === 0 ? (
                   <div className="rounded-2xl bg-neutral-800/80 ring-1 ring-neutral-700 text-sm text-neutral-200 px-4 py-3">
-                    👋 Hi! I'm Steven's AI assistant. Ask me anything about his work, projects, or how he can help with your tech needs!
+                    👋 Hi! I&apos;m Steven&apos;s AI assistant. Ask me anything about his work, projects, or how he can help with your tech needs!
                   </div>
                 ) : (
                   messages.map((message) => (
@@ -278,7 +278,7 @@ export default function TechStack() {
                 )}
               </button>
             </form>
-            <p className="mt-2 text-[11px] text-neutral-500">Chat with Steven's AI assistant to learn about his work and services.</p>
+            <p className="mt-2 text-[11px] text-neutral-500">Chat with Steven&apos;s AI assistant to learn about his work and services.</p>
           </main>
           
           {/* Right Sidebar */}

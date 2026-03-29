@@ -28,6 +28,16 @@ yarn-error.log*
 
 # env files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# AI Agent instruction and planning files
+CLAUDE.md
+GEMINI.md
+agents.md
+conductor/
 
 # vercel
 .vercel

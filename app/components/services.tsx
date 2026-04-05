@@ -149,34 +149,6 @@ export default function Services() {
           </div>
         ))}
       </div>
-      
-      {/* Accelerator/Incubator Section Info */}
-      <div className="mt-16 p-8 rounded-3xl bg-neutral-900 text-white overflow-hidden relative">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 blur-[100px] -mr-32 -mt-32"></div>
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <span className="text-blue-400 text-xs font-bold uppercase tracking-widest">For Accelerators & Incubators</span>
-            <h4 className="text-2xl sm:text-3xl font-medium mt-3 font-playfair tracking-tight">Technical Partner for your Cohorts</h4>
-            <p className="text-neutral-400 mt-4 leading-relaxed">
-              I partner with incubators to provide specialized AI workshops, technical due diligence, and dedicated MVP sprints for portfolio companies.
-            </p>
-          </div>
-          <div className="flex lg:justify-end">
-            <a 
-              href="https://cal.com/steven-ung-7epnj7/30min" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="inline-flex items-center gap-2 text-white border-b border-white/30 hover:border-white transition-all pb-1 group"
-            >
-              Discuss a partnership
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14"></path>
-                <path d="m12 5 7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }

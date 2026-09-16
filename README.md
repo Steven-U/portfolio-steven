@@ -1,42 +1,57 @@
-# Portfolio Blog Starter
+# Steven Ung — AI Engineer & Product Builder
 
-This is a porfolio site template complete with a blog. Includes:
+Personal portfolio for my work across **agentic AI systems, evals, full-stack products, and production software**.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+I build and ship systems end to end — from product framing and architecture to implementation, testing, deployment, and iteration — using an AI-augmented development workflow with tools such as Claude Code.
 
-## Demo
+**Live portfolio:** https://portfolio-starter-kit-theta-two.vercel.app
 
-https://portfolio-blog-starter.vercel.app
+## What I build
 
-## How to Use
+- **Agentic systems** — tool-using agents, orchestration, memory, evaluation and observability
+- **0→1 products** — turning early product ideas into working, deployed software
+- **Full-stack applications** — modern TypeScript/React products with production backends and infrastructure
+- **Evals & reliability** — regression gates, test harnesses, validation and measurable agent behavior
 
-You can choose from one of the following two methods to use this repository:
+## Selected work
 
-### One-Click Deploy
+The portfolio includes a mix of public and private systems, including:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+- **adaptyv-loop** — budgeted design–test–learn loop over a lab API, with contract validation and a substantial automated test suite
+- **Creava** — agent pipeline built around a temporal knowledge graph with prompt optimization and regression-gated promotion
+- **Sovereign** — private event-driven AI/quant system with real-time processing, hard risk limits and replayable audit state
+- **IdeaSignal** — AI-powered market validation product
+- **ToolRanks** — SaaS product discovery and ranking platform
+- **Flaex Tools** — ecosystem for discovering and launching SaaS and AI products
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+## Portfolio stack
 
-### Clone and Deploy
+- **Next.js 16**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **MDX / Markdown**
+- **Vercel Analytics & Speed Insights**
+- **Vercel** for deployment
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+## Local development
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
-
-Then, run Next.js in development mode:
-
-```bash
+pnpm install
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+Then open `http://localhost:3000`.
+
+Production build:
+
+```bash
+pnpm build
+pnpm start
+```
+
+## About me
+
+I am an AI engineer and product builder focused on shipping useful systems rather than isolated demos. My background spans data science and software engineering across healthcare, energy, banking and defense, and my current work centers on agentic systems, AI infrastructure and full-stack product development.
+
+For more projects, see my GitHub profile: https://github.com/Steven-U
